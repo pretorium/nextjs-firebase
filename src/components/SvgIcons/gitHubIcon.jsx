@@ -1,4 +1,5 @@
-import * as React from "react"
+/* eslint-disable react/jsx-props-no-spreading */
+import * as React from 'react';
 
 function GitHubIcon(props) {
   return (
@@ -17,7 +18,7 @@ function GitHubIcon(props) {
         fill="#FFFFFF"
       />
     </svg>
-  )
+  );
 }
 
-export default GitHubIcon
+export default GitHubIcon;

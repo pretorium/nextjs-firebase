@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/globals.css';
 import Head from 'next/head';
 import styles from '../styles/_app.module.css';
@@ -16,6 +17,6 @@ function MyApp({ Component, pageProps }) {
       </main>
     </div>
   );
-};
+}
 
-export default MyApp
+export default MyApp;
