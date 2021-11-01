@@ -1,0 +1,20 @@
+.button {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: whitesmoke;
+  border: 0;
+  cursor: pointer;
+  border-radius: 999px;
+  font-weight: 800;
+  padding: 8px 24px;
+  transition: opacity .3s ease;
+}
+
+.button:hover {
+  opacity: .8;
+}
+
+.button > SVG {
+  margin-right: 10px;
+}

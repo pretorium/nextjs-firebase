@@ -1,0 +1,37 @@
+.header {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  place-content: center;
+}
+
+.sectionLogo {
+  display: grid;
+  place-items: center;
+}
+
+.logo {
+  width: 60px;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: rgb(79, 19, 94);
+}
+
+.appName {
+  margin: 0;
+  font-weight: 800;
+  color: rgb(79, 19, 94);
+}
+
+.aboutApp {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  color: rgb(56, 54, 54);
+}
+
+.buttonLoginContainer {
+  margin-top: 15px;
+}
+
